@@ -15,3 +15,5 @@ junitproject22, framework'tur
  @After  : her @Test anotationdan sonra calisir. Tekrar eden son kosullari calistirmak icin kullanilir
 
  *@Test, @Before @BeforeClass, @After, @AfterClass, @Ignore
+
+ id, name, clalssName, LinkText, partialLinkText, xPath, csslocator
