@@ -47,5 +47,6 @@ public class Day03_C7_JavaFaker {
         System.out.println(faker.animal().name());
 
         System.out.println(faker.avatar().image());
+        System.out.println(faker.superhero().name());
     }
 }

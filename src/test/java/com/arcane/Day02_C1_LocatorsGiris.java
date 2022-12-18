@@ -93,6 +93,6 @@ Logged out basarili oldugunu verify edin
 }
 @After
     public void tearDown(){
-        chrome.close();
+ //       chrome.close();
 }
 }

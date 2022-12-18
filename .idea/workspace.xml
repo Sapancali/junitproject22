@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d43ac73-153c-47c6-9752-f19ad6169949" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day03_C5_GoogleAramaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day03_C6_CheckBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day03_C7_JavaFaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Bana_Ozel/deneme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Note/Note02" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day04_C10_HesapOlusturma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day04_C8_RadioButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day04_C9_DropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day05_C11_Alert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/arcane/Day02_C1_LocatorsGiris.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day02_C1_LocatorsGiris.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/arcane/Day03_C5_GoogleAramaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day03_C5_GoogleAramaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/arcane/Day03_C7_JavaFaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/arcane/Day03_C7_JavaFaker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +47,8 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Day03_C7_JavaFaker">
-    <configuration name="Day02_C2_Xpath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Day05_C11_Alert.sendKeysAlert">
+    <configuration name="Day04_C10_HesapOlusturma.hesapOlusturma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitproject22" />
       <extension name="coverage">
         <pattern>
@@ -51,44 +57,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.arcane" />
-      <option name="MAIN_CLASS_NAME" value="com.arcane.Day02_C2_Xpath" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day03_C5_GoogleAramaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junitproject22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.arcane.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.arcane" />
-      <option name="MAIN_CLASS_NAME" value="com.arcane.Day03_C5_GoogleAramaTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day03_C5_GoogleAramaTest.candanlikBul" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junitproject22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.arcane.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.arcane" />
-      <option name="MAIN_CLASS_NAME" value="com.arcane.Day03_C5_GoogleAramaTest" />
-      <option name="METHOD_NAME" value="candanlikBul" />
+      <option name="MAIN_CLASS_NAME" value="com.arcane.Day04_C10_HesapOlusturma" />
+      <option name="METHOD_NAME" value="hesapOlusturma" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day03_C6_CheckBox.checkBox" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day05_C11_Alert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitproject22" />
       <extension name="coverage">
         <pattern>
@@ -97,14 +73,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.arcane" />
-      <option name="MAIN_CLASS_NAME" value="com.arcane.Day03_C6_CheckBox" />
-      <option name="METHOD_NAME" value="checkBox" />
+      <option name="MAIN_CLASS_NAME" value="com.arcane.Day05_C11_Alert" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day05_C11_Alert.acceptAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junitproject22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arcane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arcane" />
+      <option name="MAIN_CLASS_NAME" value="com.arcane.Day05_C11_Alert" />
+      <option name="METHOD_NAME" value="acceptAlert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day03_C7_JavaFaker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Day05_C11_Alert.dismisAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitproject22" />
       <extension name="coverage">
         <pattern>
@@ -113,19 +104,36 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.arcane" />
-      <option name="MAIN_CLASS_NAME" value="com.arcane.Day03_C7_JavaFaker" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.arcane.Day05_C11_Alert" />
+      <option name="METHOD_NAME" value="dismisAlert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day05_C11_Alert.sendKeysAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junitproject22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arcane.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arcane" />
+      <option name="MAIN_CLASS_NAME" value="com.arcane.Day05_C11_Alert" />
+      <option name="METHOD_NAME" value="sendKeysAlert" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Day03_C7_JavaFaker" />
-        <item itemvalue="JUnit.Day03_C5_GoogleAramaTest" />
-        <item itemvalue="JUnit.Day03_C6_CheckBox.checkBox" />
-        <item itemvalue="JUnit.Day03_C5_GoogleAramaTest.candanlikBul" />
-        <item itemvalue="JUnit.Day02_C2_Xpath" />
+        <item itemvalue="JUnit.Day05_C11_Alert.sendKeysAlert" />
+        <item itemvalue="JUnit.Day05_C11_Alert" />
+        <item itemvalue="JUnit.Day05_C11_Alert.acceptAlert" />
+        <item itemvalue="JUnit.Day05_C11_Alert.dismisAlert" />
+        <item itemvalue="JUnit.Day04_C10_HesapOlusturma.hesapOlusturma" />
       </list>
     </recent_temporary>
   </component>
@@ -150,5 +158,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/junitproject22$Day04_C10_HesapOlusturma_hesapOlusturma.ic" NAME="Day04_C10_HesapOlusturma.hesapOlusturma Coverage Results" MODIFIED="1671376451455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.arcane.*</FILTER>
+    </SUITE>
   </component>
 </project>

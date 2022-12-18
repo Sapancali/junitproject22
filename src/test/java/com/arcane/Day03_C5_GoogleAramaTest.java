@@ -41,7 +41,7 @@ public class Day03_C5_GoogleAramaTest {
     }
 
     @Test
-    public void candanlikBul(){
+    public void caydanlikBul(){
         //Kullanici https://www.google.com gider
         driver.get("http://www.google.com");
 
