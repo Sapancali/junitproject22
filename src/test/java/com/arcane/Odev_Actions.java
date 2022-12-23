@@ -1,0 +1,58 @@
+package com.arcane;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.After;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+import java.util.concurrent.TimeUnit;
+
+public class Odev_Actions {
+    WebDriver driver;
+    @Before
+    public void setUp(){
+        WebDriverManager.chromedriver().setup();
+        driver=new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(10,TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+
+    }
+    @Test
+    public void hoverOver() throws InterruptedException {
+        driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
+//        1- Given kullanici  https://www.amazon.com/ adresine gider
+        driver.get("https://www.amazon.com/");
+
+//        2- When kullanici “Account” linkini click eder
+        //1. adım action objesi oluştur
+        Actions actions=new Actions(driver);
+
+        //2. uzerine gideceğimiz (hover Over) elementi locate et
+        driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.SECONDS);
+        WebElement accountList= driver.findElement(By.id("nav-link-accountList"));
+
+        //3. hover over yap
+        actions.moveToElement(accountList).perform();
+        driver.findElement(By.linkText("Account")).click();
+        WebElement languageList= driver.findElement(By.id("icp-nav-flyout"));
+        actions.moveToElement(languageList).perform();
+        driver.findElement(By.linkText("español - ES")).click();
+
+//        3- Then page title'in “Tu cuenta” icerdigini verify et
+        Thread.sleep(2000);
+        Assert.assertTrue(driver.getTitle().contains("Tu cuenta"));
+    }
+
+
+    @After
+    public void tearDown(){
+        driver.close();
+    }
+}

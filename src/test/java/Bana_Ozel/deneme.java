@@ -28,7 +28,8 @@ public class deneme {
 
         driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Muzaffer1mustafa.");
         driver.findElement(By.xpath("/html/body/div[1]/div/div/main/div/div[3]/div[1]/span[1]")).click();
-        driver.findElement(By.xpath("/html/body/div[2]/div[3]/div[1]/div/div/span/div[1]")).click();
+        driver.findElement(By.xpath("//label[@role='presentation']"));
+        driver.findElement(By.id("Login")).click();
 
 
 
