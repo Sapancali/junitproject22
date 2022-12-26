@@ -29,7 +29,7 @@ public class Day08_C25_Cookies extends TestBase {
     System.out.println(cookieSayisi);
 
 //    2. Tum cookies yazdir
-    for(Cookie herbirEleman:tumCookies){
+    for(Cookie herbirEleman : tumCookies){
         System.out.println("Cookie ismi: "+herbirEleman.getName());
         System.out.println("Cookie value: "+herbirEleman.getValue());
     }
@@ -38,20 +38,23 @@ public class Day08_C25_Cookies extends TestBase {
     System.out.println("Cookie ismi session-id-time olan cookie "+ driver.manage().getCookieNamed("session-id-time"));
 
 //    4. Yeni cookie ekle
-    Cookie cookieEkle=new Cookie("Favori Kekim","Incirli ");
+    Cookie cookieEkle = new Cookie("Favori Kekim","incirli ");
     //cookie ekle
-    driver.manage().addCookie(cookieEkle);
+//    driver.manage().addCookie(cookieEkle);
 
     //tüm cookileri al ve sayısını yazdır
-    tumCookies=driver.manage().getCookies();
-    System.out.println(tumCookies);
+ //   tumCookies=driver.manage().getCookies();
+ //   System.out.println(tumCookies);
 
 //    5. Cookie ismiyle sil
     driver.manage().deleteCookieNamed("skin");
     tumCookies=driver.manage().getCookies();
     System.out.println(tumCookies.size());
 
-
 //    6. Tum cookies sil
+    driver.manage().deleteAllCookies();
+    tumCookies=driver.manage().getCookies();
+    System.out.println(tumCookies.size());
+
 }
 }

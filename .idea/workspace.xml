@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d43ac73-153c-47c6-9752-f19ad6169949" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/tests/Day08_C21_FileExistTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/tests/Day08_C22_FileUpLoadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/tests/Day08_C23_FileDownLoadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/tests/Day08_C24_Authentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/tests/Day08_C25_Cookies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/arcane/tests/Day08_C26_JavaScript_Executor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/arcane/tests/Day07_C20_synchronization2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/arcane/tests/Day07_C20_synchronization2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/arcane/tests/Day08_C25_Cookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/arcane/tests/Day08_C25_Cookies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/arcane/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/arcane/utilities/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,23 +41,7 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.Day08_C26_JavaScript_Executor">
-    <configuration name="Day08_C22_FileUpLoadTest.fileUploadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junitproject22" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.arcane.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.arcane.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.arcane.tests.Day08_C22_FileUpLoadTest" />
-      <option name="METHOD_NAME" value="fileUploadTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Day08_C25_Cookies.handleCookies">
     <configuration name="Day08_C23_FileDownLoadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junitproject22" />
       <extension name="coverage">
@@ -90,6 +68,22 @@
       <option name="PACKAGE_NAME" value="com.arcane.tests" />
       <option name="MAIN_CLASS_NAME" value="com.arcane.tests.Day08_C24_Authentication" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day08_C24_Authentication.authTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junitproject22" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.arcane.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.arcane.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.arcane.tests.Day08_C24_Authentication" />
+      <option name="METHOD_NAME" value="authTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Day08_C26_JavaScript_Executor" />
         <item itemvalue="JUnit.Day08_C25_Cookies.handleCookies" />
+        <item itemvalue="JUnit.Day08_C24_Authentication.authTest" />
+        <item itemvalue="JUnit.Day08_C26_JavaScript_Executor" />
         <item itemvalue="JUnit.Day08_C24_Authentication" />
         <item itemvalue="JUnit.Day08_C23_FileDownLoadTest" />
-        <item itemvalue="JUnit.Day08_C22_FileUpLoadTest.fileUploadTest" />
       </list>
     </recent_temporary>
   </component>
